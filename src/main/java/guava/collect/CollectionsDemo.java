@@ -1,5 +1,7 @@
 package guava.collect;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Set;
 
 import com.google.common.collect.Sets;
@@ -23,5 +25,8 @@ public class CollectionsDemo {
 		
 		Sets.SetView<Integer> union = Sets.union(set1, set2); // 并集
 		System.out.println(union);
+		
+		Collection<Integer> collection = Collections.singletonList(1);
+		System.out.println(collection);
 	}
 }
