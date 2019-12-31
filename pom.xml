@@ -7,10 +7,6 @@
 	<name>guava</name>
 	<description>guava</description>
 
-	<modules>
-		<!-- <module>jwcms-test</module> -->
-	</modules>
-
 	<properties>
 		<java.version>1.8</java.version>
 		<java.encoding>UTF-8</java.encoding>
